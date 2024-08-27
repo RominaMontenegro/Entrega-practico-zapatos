@@ -1,0 +1,81 @@
+.estructura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.pazatitos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-card {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.card-img {
+  border-radius: 20px;
+  width: 280px;
+  border: solid 1px rgb(176, 176, 176);
+}
+
+.sale {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 2.5px;
+  border-radius: 30px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.price {
+  background-color: black;
+  color: white;
+  padding: 2.5px;
+  border-radius: 30px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 240px;
+}
+
+.model {
+  font-size: 20px;
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+}
+
+.color {
+  position: absolute;
+  bottom: 45px;
+  left: 10px;
+}
+.fotito {
+  display: flex;
+  width: 500px;
+}
+
+.titulo {
+  display: flex;
+}
+.footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+}
+.fotito2 {
+  width: 100%;
+  height: 300px;
+}
+.kicks {
+  text-align: left;
+}
